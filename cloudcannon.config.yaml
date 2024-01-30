@@ -50,6 +50,10 @@ collections_config:
       include: 
         - nav.yaml
         - footer.yaml
+    _inputs:
+      copyright:
+        label: Copyright changed on collections input config
+        comment: Automatically prefixed with the current year
   
 collection_groups:
   - heading: Pages 
@@ -149,8 +153,6 @@ _inputs:
     label: Twitter Username
   logo_url:
       comment: Link for the logo in the top left of the footer
-  copyright:
-    comment: Automatically prefixed with the current year
   enable_nav_btn:
     type: switch
   nav_btn:
