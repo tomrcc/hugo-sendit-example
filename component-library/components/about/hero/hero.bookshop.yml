@@ -8,6 +8,7 @@ spec:
   tags: ['hero']
   picker_preview:
     image: /images/hero/hero-image-2.png
+    text: 'About Hero'
 
 # Defines the structure of this component, as well as the default values
 blueprint:
