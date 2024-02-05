@@ -10,6 +10,12 @@ spec:
     gallery:
       image:
         - '/images/hero/hero-image-2.png'
+    text:
+      - 'About Hero'
+    subtext:
+      - key: description
+      - Whatever subtext you want
+    icon: apps
 
 # Defines the structure of this component, as well as the default values
 blueprint:
