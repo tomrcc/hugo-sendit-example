@@ -6,16 +6,13 @@ spec:
   description: About Hero section
   icon: 'apps'
   tags: ['hero']
-  picker_preview:
-    image:
-      - '/images/hero/hero-image-2.png'
-    text:
-      - 'About Hero'
   preview:
-    image:
-      - '/images/hero/hero-image-2.png'
+    gallery:
+      image:
+        - '/images/hero/hero-image-2.png'
     text:
       - 'About Hero'
+    icon: apps
 
 # Defines the structure of this component, as well as the default values
 blueprint:
