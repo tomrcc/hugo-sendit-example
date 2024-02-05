@@ -8,13 +8,9 @@ spec:
   tags: ['hero']
   preview:
     gallery:
-      image:
-        - '/images/hero/hero-image-2.png'
-    text:
-      - 'About Hero'
-    subtext:
-      - key: description
-      - Whatever subtext you want
+      image: /images/hero/hero-image-2.png
+    text: About Hero
+    subtext: Whatever subtext you want 2
     icon: apps
 
 # Defines the structure of this component, as well as the default values
