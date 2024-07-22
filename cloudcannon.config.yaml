@@ -157,7 +157,14 @@ _inputs:
     type: switch
   nav_btn:
     hidden: "!enable_nav_btn"
-  
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
+      # Allow HTML content in markdown files
+      # Needed because there is no native markdown support for href target _blank
+      unsafe: true
 
 _structures:
   content_blocks:
